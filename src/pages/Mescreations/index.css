@@ -1,0 +1,57 @@
+.Creations-Photo.CreationsImg img{
+    max-height: 400px;
+}
+
+.Creations-Photos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Creations-Photo {
+    flex: 0 1;
+    margin-bottom: 2.2em;
+}
+
+.Creations-Photo img {
+    border-radius: 10px;
+}
+
+.Creations-Intro {
+    font-family: 'Geometria', sans-serif;
+    font-size: 0.9em;
+    vertical-align: top;
+}
+
+.Creations-Text {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.Creations-Title {
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0.8em;
+    color: sienna;
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+    .Creations-Photos {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 45.5em) {
+    .Creations-Core {
+        flex-direction: column-reverse;
+    }
+
+    .Creations-Photo {
+        flex: 0 1;
+        margin: 1em auto;
+    }
+
+    .Creations-Photo.CreationsImg img{
+        max-height: 300px;
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "urls": {
+        "Accueil": "/",
+        "Mad&Coo": "/madandcoo",
+        "Mes créations": "/mes-creations",
+        "Contact": "/contact"
+    }
+}

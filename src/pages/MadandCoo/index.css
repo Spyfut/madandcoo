@@ -1,0 +1,51 @@
+.Madandcoo-Core {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+}
+
+.Madandcoo {
+    flex: 0 48%;
+    text-align: left;
+}   
+
+.Madandcoo.MadandcooImg img{
+    max-width: 100%;
+}
+
+.Madandcoo.MadandcooImgLeft img {
+    border-radius: 0 10px;
+}
+
+.Madandcoo.MadandcooImgRight img {
+    border-radius: 10px 0;
+}
+
+.Madandcoo.Madandcoo-Intro {
+    font-family: 'Geometria', sans-serif;
+    font-size: 0.9em;
+    vertical-align: top;
+}
+
+.Madandcoo-Text {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.Madandcoo-Title {
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0.8em;
+    color: sienna;
+}
+
+@media (max-width: 45.5em) {
+    .Madandcoo-Core {
+        flex-direction: column-reverse;
+        margin-bottom: 0;
+    }
+    
+    .Madandcoo-Title {
+        margin-top: 0.5em;
+    }
+}

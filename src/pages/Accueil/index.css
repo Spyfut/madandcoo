@@ -1,0 +1,18 @@
+.Showcase {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url("../../images/meringue.jpg") no-repeat center;
+    height: 900px;
+    width: 100%;
+    z-index:1;
+    background-size: cover;
+
+}
+
+@media (max-width: 45.5em) {
+    .Showcase {
+        background: url("../../images/meringue-mobile.jpg") no-repeat center;
+    }
+    
+}
